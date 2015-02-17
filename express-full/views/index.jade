@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  //- #{variable} 
+  h1 Hello #{username}!
+
+  //- class 
+  h1(class=username).something Hello #{username}!
+
+  h1= 'Hello ' + username
+  
+  h3#my-h3= username
+
+  if description
+    p= description
+  else
+    p No description
+
+  p.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+    Autem doloremque quis, quam porro totam ipsum distinctio 
+    et repellendus delectus aliquam beatae quo minus temporibus 
+    itaque, reiciendis blanditiis error <a href="#">anchor</a> eligendi.
+
+  p Line of content
+    | Another line of content
+    | Yet another line of content
+    a(href="#") Anchor of Text
+
+  script.
+    var a = 10;
+    var b = 20;
+    console.log(a + b);
+    
+block head-scripts
+  link(href="main.css", rel="stylesheet")    
