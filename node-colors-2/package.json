@@ -1,0 +1,10 @@
+{
+  "name": "node-colors-2",
+  "version": "1.0.0",
+  "description": "web colors api",
+  "main": "index.js",
+  "author": "cj",
+  "dependencies": {
+    "request": "^2.53.0"
+  }
+}

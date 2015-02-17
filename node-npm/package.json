@@ -1,0 +1,10 @@
+{
+  "name": "node-npm",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "author": "cj",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  }
+}
